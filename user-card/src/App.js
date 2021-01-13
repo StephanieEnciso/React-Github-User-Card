@@ -47,7 +47,7 @@ class App extends React.Component {
         <div className = 'userInfo'>
           <h3>Name: {this.state.user.name}</h3>
           <p>Username: {this.state.user.login}</p>
-          <p>Bio: {this.state.user.login}</p>
+          <p>Bio: {this.state.user.bio}</p>
           <p>Followers: {this.state.user.followers}</p>
           <p>Following: {this.state.user.following}</p>
         </div>
