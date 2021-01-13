@@ -40,15 +40,19 @@ class App extends React.Component {
 
  render() {
   return (
-    <div className="App">
+    <div className="App App-header">
       <h1>Git Hub User</h1>
-      <div className = 'userImg'>
+      <div className = 'user-container'>
         <img src = {this.state.user.avatar_url} alt = {this.state.user.name}/>
-        <h2>Name: {this.state.user.name}</h2>
-        <p>Username: {this.state.user.login}</p>
-        <p>Followers: {this.state.user.followers}</p>
-        <p>Following: {this.state.user.following}</p>
+        <div className = 'userInfo'>
+          <h3>Name: {this.state.user.name}</h3>
+          <p>Username: {this.state.user.login}</p>
+          <p>Bio: {this.state.user.login}</p>
+          <p>Followers: {this.state.user.followers}</p>
+          <p>Following: {this.state.user.following}</p>
+        </div>
       </div>
+      
       <Followers followers = {this.state.followers}/>
     </div>
   );
