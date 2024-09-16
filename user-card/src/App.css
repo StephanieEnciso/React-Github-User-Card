@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h1 {
+  font-size: 3.3rem;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid 2px white;
+  width: 65%;
+}
+.user-container img {
+  width: 25vw;
+  height: 30vh;
+}
+
+.userInfo {
+  padding: 0 8% 0 0;
+}
+.userInfo h3{
+  font-size: 1.7rem;
+}
+.userInfo p {
+  font-size: 1.5rem;
+}
+.followers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.followerDiv {
+  border: solid 2px white;
+  padding: 8% 8% 2% 8%;
+  margin: 5%;
+}
+.followerDiv img{
+  width: 25vw;
+  height: 30vh;
+}
+.followerDiv p {
+  font-size: 1.3rem;
+}
+
+
